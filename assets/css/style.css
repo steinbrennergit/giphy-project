@@ -1,0 +1,15 @@
+.item {
+    float:left;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+p {
+    margin: 0 10px 10px 10px;
+}
+
+img {
+    margin: 20px 10px 0 10px;
+}

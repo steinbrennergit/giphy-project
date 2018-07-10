@@ -66,7 +66,7 @@ $("#add-animal").on("click", function (event) {
     $("#animal-input").val("");
 
     // Only push to animals and render if user entered a NEW animal
-    if (animals.indexOf(input) === -1) {
+    if (animals.indexOf(input) === -1 && input !== "") {
         animals.push(input);
         createButton(input);
     }
